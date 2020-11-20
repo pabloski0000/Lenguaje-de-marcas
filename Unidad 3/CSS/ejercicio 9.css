@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'Roboto normal';
+    src: url('Fuentes/Xanh_Mono/XanhMono-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Roboto italica';
+    src: url(Fuentes/Xanh_Mono/XanhMono-Italic.ttf);
+}
+
+p:first-child{
+    font-family: 'Roboto italica';
+}
+
+p{
+    font-family: 'Roboto normal';
+}

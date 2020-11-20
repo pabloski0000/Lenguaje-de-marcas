@@ -1,0 +1,12 @@
+h1{
+    background-color: grey;
+}
+
+ul > li:nth-child(2n + 1){
+    background-color: black;
+    color: white;
+}
+
+ul > li:nth-child(2n){
+    background-color: grey;
+}

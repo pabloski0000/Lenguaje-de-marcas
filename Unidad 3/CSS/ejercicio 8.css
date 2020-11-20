@@ -1,0 +1,12 @@
+h1, h2{
+    font: normal small-caps lighter 4em sans-serif;
+}
+
+h2{
+    font-size: 3em;
+}
+
+dd{
+    font-weight: bold;
+    font-size: 14px;
+}

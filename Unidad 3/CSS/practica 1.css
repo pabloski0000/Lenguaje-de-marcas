@@ -1,0 +1,80 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    background-color: rgb(255, 200, 155);
+    margin: 0px;
+}
+
+#main-titulo{
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 5px;
+}
+
+.main-titulos2{
+    font-size: 175%;
+    color: #fff;
+    background-color: rgb(235, 94, 0);
+    padding: 5px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.main-imagenes{
+    width: 100px;
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.main-contain{
+    width: 67.5%;
+    margin-left: 17.25%;
+    margin-right: 17.25%;
+}
+
+.main-contain > p{
+    text-align: left;
+    margin-left: 10.5%;
+}
+
+#teatroRomano{
+    background-image: url('Imágenes/foto\ teatro\ romano.jpg');
+}
+
+#asambleaRegionalCartagena{
+    background-image: url('../CSS/Imágenes/asamblea\ regional\ Cartagena.jpg');
+}
+
+
+footer{
+    background-color: rgb(145, 6, 6);
+    width: 100%;
+    position: relative;
+    bottom: -30px;
+    margin: 0px;
+}
+
+footer p{
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 12.5%;
+}
+
+a{
+    color: orange;
+}
+
+strong{
+    color: orange;
+}
+
+em{
+    background-color: white;
+    color: black;
+}
