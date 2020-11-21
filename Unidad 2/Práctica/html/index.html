@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1</title>
+</head>
+<body>
+    <header>
+        <label for="lenguas">Lengua: </label>
+        <select name="lenguas" id="lenguas">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+        </select>
+        <hr/>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Página principal</a></li>
+            <li><a href="platón.html">Platón</a></li>
+            <li><a href="Aristóteles.html">Aristóteles</a></li>
+            <li><a href="Agustín.html">San Agustín de Hipona</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Filosofía en minutos</h1>
+        <form action="#" method="post">
+            <label for="usuario">Usuario</label>
+            <input type="text" id="usuario">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password">
+            <label for="persona">Persona física</label>
+            <input type="radio" value="persona" id="persona" name="identificaciones">
+            <label for="empresa">Empresa</label>
+            <input type="radio" value="empresa" id="empresa" name="identificaciones">
+            <input type="submit">
+        </form>
+        <table border=1>
+            <caption>Filósofos que podrás encontrar en esta página: </caption>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Vida</th>
+                    <th>Obras más importantes</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Platón</td>
+                    <td>427-547 a.C.</td>
+                    <td>
+                        <ol>
+                            <li>República</li>
+                            <li>Fedón</li>
+                            <li>Apología de Sócrates</li>
+                            <li>Critón</li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Aristóteles</td>
+                    <td>385-322 a.C.</td>
+                    <td>
+                        <ol>
+                            <li>Ética a Nicómaco</li>
+                            <li>Acerca del alma (Anima)</li>
+                            <li>Todos sus libro de metafísica</li>
+                        </ol>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>San Agustín de Hipona</td>
+                    <td>354-430 d.C.</td>
+                    <td>
+                        <ol>
+                            <li>Las confesiones</li>
+                            <li>Vida de Dios</li>
+                            <li>Confesiones de San Agustín</li>
+                        </ol>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <aside>
+        <p>Esta zona se va a dedicar a meter las cosas que hemos dado y que no pintan con el tema de la filosofía pero las quiero meter</p>
+        <p>Por ejemplo: <samp>Esto</samp></p>
+        <p>Otra cosa que me gustaría decir es que no creo que los Griegos escribieran así: <samp><code>++cont;</code></samp></p>
+        <p>Tampoco creo que se les hubiera ocurrido decir <kbd>CTRL + ALT</kbd></p>
+        <p>Una cosa que le gustaba a Sócrates o que lo intuyo son las definiciones, aquí va un ejemplo</p>
+        <dl>
+            <dt><dfn>Cebolla</dfn></dt>
+            <dd>Hortaliza</dd>
+
+            <dt><dfn>Tomate</dfn></dt>
+            <dd>Hortaliza roja</dd>
+        </dl>
+        <p>Tampoco creo que solieran escribir mucho esto: <var>int variable = 'variable';</var></p>
+        <p>Porque el <cite>Solo sé que no sé nada</cite> no se olvida</p>
+    </aside>
+
+    <footer>
+        <cite>Pablo Méndez</cite>
+    </footer>
+</body>
+</html>

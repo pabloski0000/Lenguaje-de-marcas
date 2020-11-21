@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <pre>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos">
+            <label for="localidad">Localidad</label>
+            <input type="text" name="localidad" id="localidad">
+            <label for="provincia">Provincia</label>
+            <input type="text" id="provincia">
+            <label for="codigoPostal">Código Postal</label>
+            <input type="text" id="codigoPostal">
+            <label for="telefono">Teléfono</label>
+            <input type="number" name="telefono" id="telefono">
+            <label for="sexo">Sexo: </label><select name="sexo" id="sexo">
+                <option selected>Selecciona tu sexo...</option>
+                <option value="h">Hombre</option>
+                <option value="m">Mujer</option>
+            </select>
+
+            <select name="estadoCivil" id="estadoCivil">
+                <option value="soltero" selected>Soltera/o</option>
+                <option value="casado">Casada/o</option>
+            </select>
+            <button type="submit">Aceptar</button><button type="reset">Vaciar formulario</button>
+        </pre>
+    </form>
+</body>
+</html>

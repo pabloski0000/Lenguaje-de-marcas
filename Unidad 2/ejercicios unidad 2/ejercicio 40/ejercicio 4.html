@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <form action="#" method="post">
+    <fieldset>
+        <legend>Datos personales</legend>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="dni">DNI</label>
+            <input type="text" name="dni" id="dni" maxlength="9">
+            <label for="nacimiento">Fecha nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+            <label for="domicilio">Domicilio</label>
+            <select name="domicilio" id="domicilioSelect">
+                <option value="" selected>Seleccionar domicilio...</option>
+                <option value="calle">Calle</option>
+                <option value="avenida">Avenida</option>
+                <option value="plaza">Plaza</option>
+                <option value="otro">Otro</option>
+            </select>
+            <input type="text" name="domicilio" id="domicilio">
+            <label for="numero">Numero</label>
+            <input type="number" name="numero" id="numero">
+            <label for="piso">Piso</label>
+            <input type="number" name="piso" id="piso">
+            <label for="letra">Letra</label>
+            <input type="text" name="letra" id="letra">
+            <label for="localidad">Localidad</label>
+            <input type="text" name="localidad" id="localidad">
+            <label for="provincia">Provincia</label>
+            <input type="text" name="provincia" id="provincia">
+            <label for="telefono">Teléfono</label>
+            <input type="number" name="telefono" id="telefono">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Requisitos de acceso</legend>
+                <input type="radio" name="tipoAcceso" id="directo">
+                <label for="directo">Directo</label>
+                
+                <input type="radio" name="tipoAccesoDirecto" id="bachilleratoLogse">
+                <label for="bachilleratoLogse">Bachillerato LOGSE.</label>
+                <label for="modalidad">Modalidad: </label>
+                <input type="text" name="modalidad" id="modalidad">
+                <input type="radio" name="tipoAccesoDirecto" id="bachilleratoExperimental">
+                <label for="bachilleratoExperimental">Bachillerato experimental</label>
+                <input type="radio" name="tipoAccesoDirecto" id="cou">
+                <label for="cou">COU</label>
+                <label for="opcion">Opción: </label>
+                <input type="text" name="opcion" id="opcion">
+                <input type="radio" name="tipoAccesoDirecto" id="fp2">
+                <label for="fp2">FP2</label>
+                <input type="radio" name="tipoAccesoDirecto" id="radioOtros">
+                <label for="textOtros">Otros (especifíque): </label>
+                <input type="text" name="otros" id="textOtros">
+                
+                <input type="radio" name="tipoAcceso" id="prueba">
+                <label for="prueba">Mediante prueba</label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Solicitud</legend>
+                <p>El/la que suscribe ser admitido en este centro para cursar el ciclo formativo de grado superior:</p>
+                
+                <label for="ciclo">Ciclo formativo: </label>
+                <select name="ciclo" id="ciclo">
+                    <option value="" selected>Grado superior de tecnología industrial</option>
+                    <option value="1">Un grado</option>
+                    <option value="2">Otro grado</option>
+                </select>
+                <p>En caso de no ser admitido/a, solicita la admisión por orden de preferencia en los siguientes:</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ciclos formativos</th>
+                            <th>Centros</th>
+                            <th>Localidad</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td><input type="text" name="ciclosFormativos" id="ciclosFormativos1"></td>
+                            <td><input type="text" name="centros" id="centros1"></td>
+                            <td><input type="text" name="localidad" id="localidad1"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><input type="text" name="ciclosFormativos" id="ciclosFormativos2"></td>
+                            <td><input type="text" name="centros" id="centros2"></td>
+                            <td><input type="text" name="localidad" id="localidad2"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <label for="">Modalidad de horario especial (marque): </label>
+                <input type="checkbox" name="horarioEspecial" id="checkHorarioEspecial">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Documentación presentada</legend>
+            
+            <input type="checkbox" name="fotocopiaDni" id="fotocopiaDni">
+            <label for="">Fotocopia DNI</label>
+            
+            <input type="checkbox" name="certificadoAcademico" id="certificadoAcademico">
+            <label for="">Certificado Académico</label>
+            
+            <input type="checkbox" name="otrosDocumentos" id="checkOtrosDocumentos">
+            <label for="inputOtrosDocumentos">Otros documentos (epecifique): </label>
+            <input type="text" name="otrosDocumentos" id="inputOtrosDocumentos">
+        </fieldset>
+    </form>
+    </body>
+    </html>

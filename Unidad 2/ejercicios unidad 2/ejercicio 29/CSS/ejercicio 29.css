@@ -1,0 +1,16 @@
+table{
+    margin: 1em;
+}
+
+.tablaColor td,th{
+    width: 50px;
+    height: 20px;
+}
+
+.tablaColor th{
+    background-color: purple;
+}
+
+.tablaColor td{
+    background-color: green;
+}
