@@ -1,0 +1,19 @@
+h1, h2{
+    color: blue;
+    font-variant: small-caps;
+    text-shadow: -2px 2px 5px black;
+}
+
+h1{
+    text-decoration: underline;
+    letter-spacing: 10px;
+}
+
+h2{
+    text-decoration: overline;
+    letter-spacing: 5px;
+}
+
+p{
+    text-indent: 15px;
+}

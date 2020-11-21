@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(207, 131, 188);
+}
+
+h1, h2{
+    color: blue;
+    font-variant: small-caps;
+}
+
+h1{
+    text-decoration: underline;
+    letter-spacing: 10px;
+}
+
+h2{
+    text-decoration: overline;
+    letter-spacing: 5px;
+}
+
+ul > li{
+    color: rgb(10, 183, 189);
+}
+
+p{
+    text-indent: 15px;
+}

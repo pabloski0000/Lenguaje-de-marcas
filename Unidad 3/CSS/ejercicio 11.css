@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'Roboto normal';
+    src: url('Fuentes/Xanh_Mono/XanhMono-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Roboto italica';
+    src: url(Fuentes/Xanh_Mono/XanhMono-Italic.ttf);
+}
+
+h1{
+    letter-spacing: 10px;
+}
+
+#primerParrafo{
+    font-family: 'Roboto italica';
+}
+
+#segundoParrafo, #tercerParrafo{
+    font-family: 'Roboto normal';
+}
+
+footer > p:first-child > a{
+    text-decoration: overline;
+}
+
+footer > p:nth-child(2){
+    font-weight: bold;
+}
+
+footer > p:nth-child(3){
+    color: grey;
+    text-decoration: line-through;
+}
+
+footer > p:last-child{
+    color: red;
+}
