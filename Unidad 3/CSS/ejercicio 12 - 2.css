@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'Roboto normal';
+    src: url('Fuentes/Xanh_Mono/XanhMono-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Roboto italica';
+    src: url(Fuentes/Xanh_Mono/XanhMono-Italic.ttf);
+}
+
+body{
+    background-image: url(../CSS/Imágenes/asamblea\ regional\ Cartagena.jpg);
+    background-image: url(../CSS/Imágenes/foto\ teatro\ romano.jpg);
+}
+
+h1, h2{
+    font-weight: lighter;
+}
+
+h1{
+    letter-spacing: 10px;
+    text-decoration: underline;
+}
+
+h2{
+    font-variant: small-caps;
+    letter-spacing: 5px;
+}
+
+ul > li{
+    font-style: italic;
+}
+
+#textoDestacado{
+    font-weight: 900;
+    font-size: 3.5em;
+    text-align: center;
+}

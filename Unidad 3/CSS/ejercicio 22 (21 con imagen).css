@@ -1,0 +1,29 @@
+ul > li{
+    list-style-type: square;
+}
+
+ul > li > div{
+    width: 450px;
+    height: 125px;
+    margin: 20px;
+}
+
+#primer-div{
+    background-color: black;
+    cursor: text;
+}
+
+#segundo-div{
+    background-color: orange;
+    cursor: progress;
+}
+
+#tercer-div{
+    background-color: green;
+    cursor: e-resize;
+}
+
+#cuarto-div{
+    background-color: pink;
+    cursor: pointer;
+}

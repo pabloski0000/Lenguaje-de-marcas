@@ -1,0 +1,35 @@
+body{
+    cursor: url(Imágenes/Icono\ de\ buscar.png);
+}
+
+#main-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div > div{
+    width: 500px;
+    height: 250px;
+    margin: 20px;
+}
+
+#primer-div{
+    background-color: black;
+    cursor: text;
+}
+
+#segundo-div{
+    background-color: orange;
+    cursor: progress;
+}
+
+#tercer-div{
+    background-color: green;
+    cursor: e-resize;
+}
+
+#cuarto-div{
+    background-color: pink;
+    cursor: pointer;
+}

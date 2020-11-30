@@ -16,6 +16,16 @@
     letter-spacing: 3px;
 }
 
+td, th{
+    width: 42.5%;
+}
+
 th{
     font-weight: bolder;
+    background-color: black;
+    color: white;
+}
+
+table, td{
+    border: 1px solid black;
 }
