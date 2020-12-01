@@ -1,0 +1,26 @@
+.textoNormal{
+    border: 2px solid grey;
+    padding: 30px 25px 15px 30px;
+    font-size: small;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    width: 400px;
+    height: 375px;
+    resize: both;
+    overflow: hidden;
+}
+
+.main-lista{
+    border: 2px solid grey;
+    box-sizing: border-box;
+    padding: 17px;
+    width: 300px;
+    height: 250px;
+    overflow: auto;
+    resize: both;
+}
+
+.main-lista li{
+    font-style: italic;
+    font-size: small;
+}

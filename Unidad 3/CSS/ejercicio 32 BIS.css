@@ -1,0 +1,13 @@
+.textoNormal{
+    border: 1px solid blue;
+}
+
+.main-lista{
+    border: 4px dotted red;
+}
+
+h1, h2{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-variant: small-caps;
+}

@@ -1,0 +1,9 @@
+.textoNormal{
+    border: 1px solid blue;
+}
+
+.main-lista > li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 4px dotted red;
+}

@@ -1,0 +1,43 @@
+hr{
+    margin: 0px;
+}
+
+.paraTitulo2{
+    border: 1px dotted black;
+    border-collapse: collapse;
+}
+
+h1{
+    font-size: 1.25em;
+    font-variant: small-caps;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 0.75em;
+    font-variant: small-caps;
+    font-weight: normal;
+    margin: 0px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
+
+.textoNormal{
+    border: 2px solid grey;
+    padding: 30px 25px 15px 30px;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.main-lista{
+    border: 2px solid grey;
+    padding: 17px;
+}
+
+.main-lista li{
+    font-style: italic;
+    font-size: small;
+}
