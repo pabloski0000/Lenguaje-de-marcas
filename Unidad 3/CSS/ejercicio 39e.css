@@ -1,0 +1,29 @@
+#primerDiv, #tercerDiv{
+    float: left;
+    width: 50%;
+    height: 550px;
+}
+
+#primerDiv{
+    background-color: yellow;
+}
+
+#segundoDiv{
+    background-color: purple;
+    width: 40%;
+    height: 275px;
+    position: absolute;
+    left: 30%;
+    bottom: 35%;
+}
+
+#tercerDiv{
+    background-color: greenyellow;
+}
+
+#cuartoDiv{
+    clear: both;
+    background-color: orange;
+    box-sizing: border-box;
+    height: 100px;
+}

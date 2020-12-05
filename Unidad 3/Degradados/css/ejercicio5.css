@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+#background{
+    height: 700px;
+    display: block;
+    margin: auto;
+}
+
+#nube{
+    position: absolute;
+    top: 200px;
+    left: 285px;
+    transition: transform 500s;
+    transform: translateX(965px);
+}
+
+#barco{
+    position: absolute;
+    top: 375px;
+    left: 285px;
+    transition: transform 140s;
+    transform: translateX(965px);
+}
+
+#faro{
+    position: absolute;
+    top: 275px;
+    left: 1060px;
+}
+
+#luzFaro{
+    transform: rotateY(0deg);
+    transition: transform 5s;
+    transform: rotateY(20deg);
+}

@@ -1,0 +1,36 @@
+header{
+    clear: both;
+    background-color: orange;
+    box-sizing: border-box;
+    height: 75px;
+}
+
+nav{
+    float: left;
+    background-color: purple;
+    width: 20%;
+    height: 550px;
+}
+
+article{
+    float: left;
+    width: 60%;
+    height: 550px;
+    background-color: greenyellow;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    height: 550px;
+    background-color: purple;
+}
+
+footer{
+    background-color: orange;
+    box-sizing: border-box;
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    bottom: 0px;
+}

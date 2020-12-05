@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+
+#padre{
+    background-color: #F00;
+    padding: 5px;
+}
+
+#primerDiv{
+    width: 20%;
+    float: left;
+    background-color: green;
+}
+
+#segundoDiv{
+    width: 60%;
+    float: left;
+    background-color: yellow;
+}
+
+#tercerDiv{
+    width: 20%;
+    float: left;
+    background-color: red;
+}

@@ -1,0 +1,23 @@
+#primerDiv, #tercerDiv{
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+#primerDiv{
+    background-color: yellow;
+}
+
+#segundoDiv{
+    background-color: purple;
+    width: 300px;
+    height: 275px;
+    position: absolute;
+    left: 35%;
+    bottom: 55%;
+}
+
+#tercerDiv{
+    background-color: greenyellow;
+}
+

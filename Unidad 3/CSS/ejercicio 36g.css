@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+}
+
+img{
+    float: left;
+    margin: 0px;
+}
+
+.texto{
+    display: inline;
+}
+
+.clear{
+    clear: both;
+}

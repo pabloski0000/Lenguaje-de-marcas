@@ -1,0 +1,34 @@
+div{
+    margin: 50px;
+}
+
+#primerDiv{
+    background-color: green;
+    box-sizing: border-box;
+    width: 150px;
+    height: 100px;
+    overflow: scroll;
+}
+
+#segundoDiv{
+    background-color: yellowgreen;
+    box-sizing: border-box;
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+}
+
+#tercerDiv{
+    background-color: pink;
+    box-sizing: border-box;
+    width: 150px;
+    height: 100px;
+    overflow: auto;
+}
+
+#cuartoDiv{
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 150px;
+    height: 100px;
+}
