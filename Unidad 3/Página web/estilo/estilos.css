@@ -125,6 +125,10 @@ table, table td, table th{
     flex-direction: column;
 }
 
+#iconoBuscar{
+    border-radius: 0%;
+}
+
 footer{
     background-color: #25682d;
 }
