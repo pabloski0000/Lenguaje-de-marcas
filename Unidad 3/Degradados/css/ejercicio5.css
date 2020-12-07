@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    overflow: hidden;
 }
 
 #background{
@@ -27,11 +28,24 @@ body{
 #faro{
     position: absolute;
     top: 275px;
-    left: 1060px;
+    left: 1053px;
+}
+
+@keyframes luzFaro{
+    from {
+        transform-origin: 100% 100%;
+        transform: rotateY(0deg);
+    }
+    to {
+        transform-origin: 100% 100%;
+        transform: rotateY(360deg);
+    }
 }
 
 #luzFaro{
-    transform: rotateY(0deg);
-    transition: transform 5s;
-    transform: rotateY(20deg);
+    animation: luzFaro 12s infinite;
+    animation-delay: 0s;
+    position: absolute;
+    right: 25%;
+    bottom: 39.60%;
 }

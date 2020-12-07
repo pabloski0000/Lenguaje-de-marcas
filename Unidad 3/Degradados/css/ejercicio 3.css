@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+
+div{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    background-image: radial-gradient(rgb(81, 255, 0), rgb(0, 102, 255));
+}

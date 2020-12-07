@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+}
+
+div{
+    border: 2px solid black;
+    height: 75px;
+    background-image: linear-gradient(white, #666);
+}

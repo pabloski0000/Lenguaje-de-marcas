@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+    margin: 100px;
+}
+
+#primerRectangulo{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(rgb(255, 166, 0), rgb(255, 219, 140));
+}
+
+#segundoRectangulo{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to right, red, orange 16.5%, yellow 33%, green 49.5%, blue 66%, purple 83.5%);   
+}
