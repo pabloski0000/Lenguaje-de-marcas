@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Selectores</title>
+  <link rel="stylesheet" type="text/css" href="../css/prueba.css">
+</head>
+<body>
+  <h1>Bienvenido a mi página</h1>
+  <div class="intro">
+    <p>Ciclo de Desarrollo de Aplicaciones Web.<span id="curso">Segundo.</span></p>
+    <p id="centro">CIFP Carlos III</p>
+    <p>Lista de los módulos</p>
+  </div>
+  <ul id="Listmod">
+    <li>LM</li>
+    <li>EC</li>
+    <li>ES</li>
+    <li>DW</li>
+    <li>DI</li>
+  </ul>
+  <p>Me gustan todos los módulos<br>
+    Pero prefiero Lenguaje de Marcas y Sistemas de Información </p>
+  <p lang="it" title="Hello beautiful">Ciao bella</p>
+  <h3>Profesores</h3>
+  <p><b>Lista de profesores con los módulos que imparte:</b></p>
+  <table>
+    <tr><th>Módulo</th><th>Profesor</th></tr>
+    <tr><td>LM</td><td>Prof1</td></tr>
+    <tr><td>EC</td><td>Prof2</td></tr>
+    <tr><td>ES</td><td>Prof3</td></tr>
+    <tr><td>DW</td><td>Prof4</td></tr> 
+    <tr><td>DI</td><td>Prof5</td></tr>
+  </table>
+  <form>
+    <p>Formulario para recibir información:</p>
+    <label>Nombre:</label><input type="text" name="name"><br>
+    <label>E-mail:</label><input type="text" name="email"><br>
+    <label>Mujer:</label><input type="radio" name="sex" value="female">
+    <label>Hombre:</label><input type="radio" name="sex" value="male">
+    <label>Otro:</label><input type="radio" name="sex" value="other">   
+    <p>Aficiones:</p>
+    <label>Lectura:</label><input type="checkbox" name="afic" value="lectura">
+    <label>Deporte:</label><input type="checkbox" name="afic" value="deporte">
+    <label>Música:</label><input type="checkbox" name="afic" value="musica"><br>
+    <label>Nivel de interés en la información (de 1 a 10):</label>
+    <input type="range" min="1" max="10" name="interes">
+  </form>
+</body>
+</html>

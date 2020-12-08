@@ -1,0 +1,30 @@
+p{
+    display: inline-block;
+    padding-right: 100px;
+}
+
+p:nth-child(2){
+    text-shadow: 0px 0px 5px red;
+    color: white;
+}
+
+p:nth-child(3){
+    text-shadow: 0px 5px 2px blue, -4px -2px 2px red, 4px -2px 2px green;
+}
+
+p:nth-child(4){
+    background-color: #ccc;
+    color: white;
+}
+
+p:nth-child(5){
+    background-color: #999;
+    color: #999;
+    text-shadow: 0.2px 0.2px 0px black, -0.2px -0.2px 0px white;
+}
+
+p:last-child{
+    background-color: #ccc;
+    color: #ccc;
+    text-shadow: 0.2px 0.2px 0px white, -0.2px -0.2px 0px black;
+}

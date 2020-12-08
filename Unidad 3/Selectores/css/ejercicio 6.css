@@ -1,0 +1,27 @@
+li:first-child{
+    font-size: 0.5em;
+}
+
+li:first-of-type{
+    color: blue;
+}
+
+li:nth-of-type(2){
+    font-size: 0.9em;
+}
+
+li:nth-last-of-type(3){
+    font-size: 1.3em;
+}
+
+li:nth-last-of-type(2){
+    font-size: 1.7em;
+}
+
+li:last-of-type{
+    font-size: 2.1em;
+}
+
+li:last-child{
+    color: blue;
+}

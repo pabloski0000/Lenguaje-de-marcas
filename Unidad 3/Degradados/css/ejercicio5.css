@@ -49,3 +49,21 @@ body{
     right: 25%;
     bottom: 39.60%;
 }
+
+.pajaro{
+    position: absolute;
+}
+
+.pajaro1{
+    right: 21%;
+    bottom: 50%;
+    transition: transform 130s;
+    transform: translateX(-965px);
+}
+
+.pajaro2{
+    right: 19%;
+    bottom: 54%;
+    transition: transform 115s;
+    transform: translateX(-965px);
+}
