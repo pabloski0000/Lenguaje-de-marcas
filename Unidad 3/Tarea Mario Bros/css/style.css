@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+@keyframes movimientoNubes{
+    from{
+        margin-left: 0%;
+    }
+    
+    to{
+        margin-left: -100%;
+    }
+}
+
+#cielo{
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to top, #88bfff, #0077ff);
+}
+
+#suelo{
+    position: absolute;
+    bottom: 0;
+    background-image: url('../css/imagenes/f01.png');
+    width: 100vw;
+    height: 10px;
+}
+
+#nubes{
+    height: 75px;
+    width: 200%;
+    background-image: url('../css/imagenes/f03.png');
+    animation: movimientoNubes 35s infinite linear;
+}
+
+#mario{
+    position: absolute;
+    transition: transform 10s;
+    left: 0;
+    bottom: 10px;
+    transform: translateX(2000px);
+}
+
+.setaEnemiga{
+    position: absolute;
+    transition: transform 11s;
+    left: 0;
+    bottom: 10px;
+    transform: translateX(2000px);
+}
+
+#tuboVerde{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    transform: rotate(-90deg);
+    z-index: 1;
+}
+
+/*.ciclo{
+    position: absolute;
+    bottom: 10px;
+    left: 350px;
+}
+
+#setaEnemiga{
+    background-image: url('../css/imagenes/seta.png');
+    height: 200vh;
+    width: 17px;
+    background-repeat: no-repeat;
+}*/
+
+
+/*border: 3px solid red;*/
